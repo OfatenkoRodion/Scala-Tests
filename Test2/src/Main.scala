@@ -42,7 +42,7 @@ object Main extends  App{
   println("myAbs(-3)"+myAbs(3))
 
   def fac(n:Int): Int = if (n<=0) 1 else n * fac(n-1)
-  
+
   println("fac(4)"+fac(4))
 
 
